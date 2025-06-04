@@ -1,0 +1,16 @@
+Thought Process
+Input
+List of objects
+Out put
+String:Assigning the  priority machine to be serviced
+Process
+1.Start by going through each of the objects in the list
+2.If the personnel required id less than or equal to 4 and
+3.If the history record is less than or equal to 4 and
+4.If the demand is “High”
+5.Then assign the highest priority service needed
+6.If the personnel is greater than 4 and less than 10
+7.If the history record is greater than 4 and less than 10
+8.Check if the demand is “Medium”
+9.Then assign  medium priority service needed
+10.If not,assign lowest priority  for servicing.
