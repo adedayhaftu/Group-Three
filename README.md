@@ -5,5 +5,7 @@ Design a maintenance sceduling system for industrial equipment used in manufactu
 You are developing a social media application where users can follow other users .Show how you will use your knowledge in data structures to store followers for each user.
 # Group Members
 Angela Wanjala
+
 Adeday Haftu
+
 Semhal Estifanos
