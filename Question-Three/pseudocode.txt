@@ -1,0 +1,17 @@
+Create a list called users to hold information about each user.
+For each user, include the following details: an identifier(userID) , name and list called followers to store the userIDs of users who follow this user.
+To add a follower,define a method to addFollower(currentUserID, followerUserID)
+Find the user with currentUserID in the users list.
+If the user exists, check if followerUserID is not already in the user's followers list.
+If not present, include followerUserID in the user's followers list.
+To remove a follower,define a method to removeFollower(currentUserID, followerUserID):
+Find the user with currentUserID in the users list.
+If the user exists, check if followerUserID is in the user's followers list.
+If present, remove followerUserID from the user's followers list.
+To get the list of followers for a user,define a method to getFollowers(userID)
+Find the user with userID in the users list.
+If the user exists, return the user's followers list.
+If the user does not exist, return a message indicating that the user was not found.
+To get the list of users that a user is following,define a method to getFollowing(userID)
+Find the user with userID in the users list.
+If the user exists, return the list of userIDs that follow this user else return a message showing the user was not found.
